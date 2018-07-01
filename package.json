@@ -1,0 +1,25 @@
+{
+  "name": "@flockcore/air",
+  "version": "0.1.1",
+  "description": "dWeb network flock that discovers other peers on the Distributed Web using MultiCast DNS.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "dependencies": {
+    "@distdns/core": "distdns/core#master",
+    "network-address": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^5.2.1",
+    "tape": "^4.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
